@@ -1,0 +1,45 @@
+.card__text-container {
+  box-shadow: var(--header-box-shadow);
+  -webkit-box-shadow: var(--header-box-shadow);
+  -moz-box-shadow: var(--header-box-shadow);
+  padding: 7px;
+}
+
+.card {
+  margin: 20px;
+  border: solid 1px black;
+  max-width: 300px;
+}
+
+.card__image {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.card__project-name {
+  font-weight: 500;
+  font-size: 1.15em;
+}
+
+.card__text-container {
+  min-height: 67.55px;
+}
+
+.card__text-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card__project-description {
+  font-weight: 300;
+}
+
+.card__icon-container > .devicon-github-original {
+  margin-right: 4px;
+}
+
+.black {
+  filter: brightness(0%);
+}

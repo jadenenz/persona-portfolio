@@ -1,0 +1,55 @@
+:root {
+  --header-box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.56);
+}
+
+.header {
+  background: rgb(7, 128, 82);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+@media (min-width: 1000px) {
+  .header__title {
+    right: 45vw;
+  }
+}
+
+.header__about-me {
+  padding: 20px 10px;
+  background-color: white;
+  margin: 30px;
+  margin-left: 0px;
+  margin-top: 60x;
+  box-shadow: var(--header-box-shadow);
+  -webkit-box-shadow: var(--header-box-shadow);
+  -moz-box-shadow: var(--header-box-shadow);
+  max-width: 1200px;
+}
+
+.header__about-me__title {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.header__image {
+  width: 200px;
+  float: left;
+  box-shadow: var(--header-box-shadow);
+  -webkit-box-shadow: var(--header-box-shadow);
+  -moz-box-shadow: var(--header-box-shadow);
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}

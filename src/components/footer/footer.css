@@ -1,0 +1,56 @@
+.footer {
+  color: white;
+  background: rgb(7, 128, 82);
+  padding: 15px 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  /* height: 100%; */
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    padding: 50px 35vw;
+  }
+}
+
+.footer__image {
+  max-width: 200px;
+  grid-column: 2 / 3;
+  justify-self: end;
+}
+
+.footer__grid-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1 / 2;
+}
+
+.footer__contact-me {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.footer__blurb {
+  margin-top: 10px;
+}
+
+.footer__address {
+  margin-top: 10px;
+}
+
+.footer__phone-container {
+  margin-top: 10px;
+}
+
+.footer__email,
+.footer__phone-number {
+  margin-left: 7px;
+}
+
+.footer__socials-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
